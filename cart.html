@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Website</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"> <img src="img/logo1.png" class="logo" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"><i class="bx bx-cart"></i></a>
+          </li>
+          <a href="#" id="close"
+            ><i class="bx bx-arrow-back bx-rotate-180"></i
+          ></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+        <a href="cart.html"><i class="fa-solid fa-cart-plus"></i></a>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>#stayHome</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class='bx bxs-x-circle'></i></a></td>
+                <td><img src="img/watches/51nDV39uZiL._SX679_.jpg" alt=""></td>
+                <td>Nike T shirt for men</td>
+                <td>$112.00</td>
+                <td><input type="number" value="1"></td>
+                <td>$112.00</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class='bx bxs-x-circle'></i></a></td>
+                <td><img src="img/watches/712xd6dVHVL._SX679_.jpg" alt=""></td>
+                <td>Nike T shirt for men</td>
+                <td>$112.00</td>
+                <td><input type="number" value="1"></td>
+                <td>$112.00</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class='bx bxs-x-circle'></i></a></td>
+                <td><img src="img/watches/4.jpg" alt=""></td>
+                <td>Nike T shirt for men</td>
+                <td>$112.00</td>
+                <td><input type="number" value="1"></td>
+                <td>$112.00</td>
+            </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter your coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 234l</td>
+                </tr>
+                <tr>
+                    <td>Shopping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><Strong>$ 334</Strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Payment</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo2.png" alt="" />
+        <h4>Contact</h4>
+        <p><strong>Address</strong>Lorem ipsum dolor sit.</p>
+        <p><strong>Phone</strong>+91 XXXXXXXXXX</p>
+        <p><strong>Hours</strong>10:00 - 18:00, Mon-Sat</p>
+
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Optimization</a>
+        <a href="#">Terms and conditions</a>
+        <a href="#">Conatact us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View cart</a>
+        <a href="#">My WishList</a>
+        <a href="#">Track my order</a>
+        <a href="#">help</a>
+      </div>
+
+      <div class="col install">
+        <h4>install App</h4>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="row">
+          <img src="img/pay/images.png" alt="" />
+          <img src="img/payment.png" alt="" />
+        </div>
+        <p>Lorem, ipsum dolor.</p>
+        <img src="img/payment.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>2023 Jitendra Aakde</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
